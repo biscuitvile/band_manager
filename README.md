@@ -16,5 +16,6 @@ brew update && brew install postgresql
 
 ```
 git clone git@github.com:biscuitvile/band_manager.git && cd band_manager
+cp config/database.yml.example config/database.yml
 bundle
 ```
